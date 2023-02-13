@@ -26,7 +26,7 @@ public class DepositAmount {
 				if(amount.contains("-") || amount.contains("+"))
 					throw new Exception();
 				newUser.setBalance(newUser.getBalance() + Double.valueOf(amount));
-				System.out.println("\nSuccesfully deposited "+amount+" Rs. in "+newUser.getUserName()+"'s account.");
+				System.out.println("\nSuccesfully deposited " + Double.valueOf(amount) + " Rs. in "+newUser.getUserName()+"'s account.");
 				System.out.println(newUser.getUserName()+"'s balance : "+newUser.getBalance()+" Rs.\n");
 		
 			} else {

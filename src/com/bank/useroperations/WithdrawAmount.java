@@ -28,7 +28,7 @@ public class WithdrawAmount {
 					System.out.println("\nCannot withdraw ! Insufficient balance... \n");
 				} else {
 					newUser.setBalance(newUser.getBalance() - Double.valueOf(amount));
-					System.out.println("\nSuccesfully withdraw " + amount + " Rs. from " + newUser.getUserName() + "'s account.");
+					System.out.println("\nSuccesfully withdraw " + Double.valueOf(amount) + " Rs. from " + newUser.getUserName() + "'s account.");
 					System.out.println(newUser.getUserName() + "'s balance : " + newUser.getBalance() + " Rs.\n");
 				}
 		

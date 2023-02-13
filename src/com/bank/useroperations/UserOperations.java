@@ -9,9 +9,7 @@ import com.bank.user.NewUser;
 	
 public class UserOperations {
 	static NewUser newUser = null;
-	
-	
-	
+
 	public void getOptions(NewUser nu) throws ClassNotFoundException, IOException, SQLException {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);

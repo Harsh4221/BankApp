@@ -11,6 +11,13 @@ public class MainUser {
 	public static void main(String[] args) throws ClassNotFoundException, IOException, SQLException {
 		// TODO Auto-generated method stub
 		System.out.println("************************WELCOME TO ONLINE BANKING************************\n\n");
+//		DatabaseConnection dc = new DatabaseConnection();
+//		Connection conn = dc.establishConnection();
+//		
+//		if (conn == null) {
+//			System.out.println("\n\nSomething Went Wrong !\n\n");
+//			System.exit(0);
+//		}
 
 		UserOperations u = new UserOperations();
 		u.getOptions(newUser);

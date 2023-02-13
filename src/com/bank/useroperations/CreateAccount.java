@@ -2,12 +2,10 @@ package com.bank.useroperations;
 
 
 import java.io.IOException;
-import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import com.bank.database.connection.DatabaseConnection;
 import com.bank.user.NewUser;
 
 
@@ -17,13 +15,6 @@ public class CreateAccount {
 		// TODO Auto-generated method stub
 		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
-//		DatabaseConnection dc = new DatabaseConnection();
-//		Connection conn = dc.establishConnection();
-//		
-//		if (conn == null) {
-//			System.out.println("\n\nSomething Went Wrong !\n\n");
-//			System.exit(0);
-//		}
 			
 		try {
 			System.out.print("\nEnter user name : ");
